@@ -1,12 +1,13 @@
 import "./App.css";
-import {SimpleNumpad} from "../lib/main.tsx"
+// @ts-ignore
+import { SimpleNumpad } from "../lib/main.tsx";
 
 function App() {
-return (
+  return (
     <div>
-        <SimpleNumpad/>
+      <SimpleNumpad />
     </div>
-)
+  );
 }
 
 export default App;
