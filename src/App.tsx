@@ -1,13 +1,9 @@
 import "./App.css";
-// @ts-ignore
-import { SimpleNumpad } from "../lib/main.tsx";
+
+import { MoneyPad } from "../lib/main.ts";
 
 function App() {
-  return (
-    <div>
-      <SimpleNumpad />
-    </div>
-  );
+  return <MoneyPad />;
 }
 
 export default App;
